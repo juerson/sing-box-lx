@@ -267,5 +267,9 @@ replace github.com/sagernet/gvisor => ./submodules/gvisor
 replace github.com/metacubex/utls => ./submodules/utls
 
 // lx:end utls-firefox148
-// 新增
+
+// lx:begin vision-ws (VISION-WS-MOD.md)
+// Vendored sing-vmess: xtls-rprx-vision over WebSocket, no XTLS direct splice.
 replace github.com/sagernet/sing-vmess => ./sing-vmess
+
+// lx:end vision-ws
