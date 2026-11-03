@@ -267,3 +267,5 @@ replace github.com/sagernet/gvisor => ./submodules/gvisor
 replace github.com/metacubex/utls => ./submodules/utls
 
 // lx:end utls-firefox148
+// 新增
+replace github.com/sagernet/sing-vmess => ./sing-vmess
